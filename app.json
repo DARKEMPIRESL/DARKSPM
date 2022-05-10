@@ -1,0 +1,40 @@
+{
+    "name": "Pm Bot",
+    "description": "Multi Function Pm Bot",
+    "keywords": [
+        "pyrohram",
+        "pyro",
+        "telegram",
+        "telebot"
+    ],
+    "repository": "https://github.com/DARKEMPIRESL/DARKSPM",
+    "website": "https://github.com/DARKEMPIRESL/DARKSPM",
+    "success_url": "https://github.com/DARKEMPIRESL/DARKSPM",
+    "logo": "https://telegra.ph/file/083efe43283e70a0e929e.jpg",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps ",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps",
+            "value": ""
+        }       
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
