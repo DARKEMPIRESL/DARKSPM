@@ -61,21 +61,21 @@ Client = Client(
     bot_token=var.BOT_TOKEN,
 )
 
-force_subchannel = "ImDark_Empire"
+force_subchannel = "xMalitha"
 
 BROADCAST_AS_COPY = "True"
 
-OWNER = "SL_BOTS_TM"
+OWNER = "Malitha_Mihiranga"
 
-START_IMG = "https://telegra.ph/file/083efe43283e70a0e929e.jpg"
+START_IMG = "https://telegra.ph/file/bdfe398ed159097e77f25.jpg"
 
 FORCESUB_TEXT = "**❌ Access Denied ❌**\n🌷You Must Join My Update Channel...🌷\n♻️Join it & Try Again.♻️"
 
 FORCESUB_BUTTONS = InlineKeyboardMarkup([[
-                 InlineKeyboardButton('𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊', url=f"https://t.me/{force_subchannel}")
+                 InlineKeyboardButton('мαℓιтнα мιнιяαηgα 🇱🇰', url=f"https://t.me/{force_subchannel}")
                  ],
                  [
-                 InlineKeyboardButton('𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊', url=f"https://t.me/{OWNER}")
+                 InlineKeyboardButton('мαℓιтнα мιнιяαηgα 🇱🇰', url=f"https://t.me/{OWNER}")
                  ],
                  [
                  InlineKeyboardButton(text="♻️ Reload ♻️",callback_data="ref")
@@ -84,91 +84,91 @@ FORCESUB_BUTTONS = InlineKeyboardMarkup([[
 
 
 START_STRING =f"""
-Hi , Welcome to 𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™'s Pm Bot.
+Hi , Welcome to мαℓιтнα мιнιяαηgα 🇱🇰's Pm Bot.
 Use Help Button For More....
 
- By [𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™](https://t.me/SL_BOTS_TM)
+ By [мαℓιтнα мιнιяαηgα 🇱🇰](https://t.me/xMalitha)
 """
 TGM_STRING = """🌺 Send Eny Photo For Gen Telegraph Link 🌺
 """
 
 START_BUTTON = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™', url=f"https://t.me/{OWNER}")
+                 InlineKeyboardButton('мαℓιтнα мιнιяαηgα 🇱🇰', url=f"https://t.me/{OWNER}")
                  ],
                  [
-                 InlineKeyboardButton(text="🌴 𝗛𝗲𝗹𝗽 🌴",callback_data="cmds")
+                 InlineKeyboardButton(text=" ✨ ʜᴇʟᴘ ✨",callback_data="cmds")
                  ],
                  [
-                 InlineKeyboardButton("➕ 𝕬𝖉𝖉 𝖒𝖊 𝖙𝖔 𝖞𝖔𝖚𝖗 𝖌𝖗𝖔𝖚𝖕 ➕", url="https://t.me/darks_pm_bot?startgroup=true")
+                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="https://t.me/darks_pm_bot?startgroup=true")
                  ]]
                   )
 
 HELP_BUTTONS = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton(text="🔱 𝕿𝖊𝖑𝖊𝖌𝖗𝖆𝖕𝖍 🔱",callback_data="tgm")
+                 InlineKeyboardButton(text="✘ ᴛᴇʟᴇɢʀᴀᴘʜ ✘",callback_data="tgm")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝕷𝖔𝖌𝖔 🔱",callback_data="logoc")
+                 InlineKeyboardButton(text="✘ ʟᴏɢᴏ ✘",callback_data="logoc")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 🇸 🇴 🇳 🇬 🇸 🔱",callback_data="songg")
+                 InlineKeyboardButton(text="✘ ꜱᴏɴɢꜱ  ✘",callback_data="songg")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝗣𝗶𝗰 𝗺𝗲 🔱",callback_data="picme")
+                 InlineKeyboardButton(text="✘ ᴘɪᴄ ᴍᴇ ✘",callback_data="picme")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝗤𝗥 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 🔱",callback_data="qrg")
+                 InlineKeyboardButton(text="✘ Qʀ ɢᴇɴᴇʀᴀᴛᴏʀ ✘",callback_data="qrg")
                  ],
                  [
-                 InlineKeyboardButton(text="🍃 𝗕𝗔𝗖𝗞 🍃",callback_data="bamk")            
+                 InlineKeyboardButton(text="<< ʙᴀᴄᴋ >>",callback_data="bamk")            
                  ]]
                   )
 
 GHELP_BUTTONS = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton(text="🔱 𝕿𝖊𝖑𝖊𝖌𝖗𝖆𝖕𝖍 🔱",callback_data="htgm")
+                 InlineKeyboardButton(text="✘ ᴛᴇʟᴇɢʀᴀᴘʜ ✘",callback_data="htgm")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝕷𝖔𝖌𝖔 🔱",callback_data="hlogoc")
+                 InlineKeyboardButton(text="✘ ʟᴏɢᴏ ✘",callback_data="hlogoc")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 🇸 🇴 🇳 🇬 🇸 🔱",callback_data="songg")
+                 InlineKeyboardButton(text="✘ ꜱᴏɴɢꜱ  ✘",callback_data="songg")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝗣𝗶𝗰 𝗺𝗲 🔱",callback_data="picme")
+                 InlineKeyboardButton(text="✘ ᴘɪᴄ ᴍᴇ ✘",callback_data="picme")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝗤𝗥 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 🔱",callback_data="hqrg")
+                 InlineKeyboardButton(text="✘ Qʀ ɢᴇɴᴇʀᴀᴛᴏʀ ✘",callback_data="hqrg")
                  ],
                  [
-                 InlineKeyboardButton(text="🍃 𝗕𝗔𝗖𝗞 🍃",callback_data="hbamk")            
+                 InlineKeyboardButton(text="<< ʙᴀᴄᴋ >>",callback_data="hbamk")            
                  ]]
                   )
 
 PICMEH_BUTTONS = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton(text="🔱 𝕿𝖊𝖑𝖊𝖌𝖗𝖆𝖕𝖍 🔱",callback_data="ptgm")
+                 InlineKeyboardButton(text="✘ ᴛᴇʟᴇɢʀᴀᴘʜ ✘",callback_data="ptgm")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝕷𝖔𝖌𝖔 🔱",callback_data="plogoc")
+                 InlineKeyboardButton(text="✘ ʟᴏɢᴏ ✘",callback_data="plogoc")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 🇸 🇴 🇳 🇬 🇸 🔱",callback_data="pongg")
+                 InlineKeyboardButton(text="✘ ꜱᴏɴɢꜱ  ✘",callback_data="pongg")
                  ],
                  [
-                 InlineKeyboardButton(text="🔱 𝗤𝗥 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 🔱",callback_data="pqrg")
+                 InlineKeyboardButton(text="✘ ᴘɪᴄ ᴍᴇ ✘",callback_data="pqrg")
                  ],
                  [
-                 InlineKeyboardButton(text="🍃 𝗕𝗔𝗖𝗞 🍃",callback_data="picme")            
+                 InlineKeyboardButton(text="<< ʙᴀᴄᴋ >>",callback_data="picme")            
                  ]]
                   )
 HHHELP_BUTTONS = InlineKeyboardMarkup([[
-                 InlineKeyboardButton(text="🍃 𝗕𝗔𝗖𝗞 🍃",callback_data="hhbak")            
+                 InlineKeyboardButton(text="<< ʙᴀᴄᴋ >>",callback_data="hhbak")            
                  ]]
                   ) 
 PICMEB_BUTTONS = InlineKeyboardMarkup([[
-                 InlineKeyboardButton(text="🍃 𝗕𝗔𝗖𝗞 🍃",callback_data="ppbak")            
+                 InlineKeyboardButton(text="<< ʙᴀᴄᴋ >>",callback_data="ppbak")            
                  ]]
                   ) 
                  
-BOT_USERNAME = "**@darks_pm_bot**"
+BOT_USERNAME = "**xMalitha_Pm_Bot**"
 PM_TXT_ATT = "<b>Message from:</b> {}\n<b>Name:</b> {}\n\n{}"
 PM_MED_ATT = "<b>Message from:</b> {} \n<b>Name:</b> {}"
 
@@ -217,12 +217,12 @@ Add Onother Features Soon
 """
 
 BACK_BUTTON = InlineKeyboardMarkup([[
-                 InlineKeyboardButton(text="🍃 𝗕𝗔𝗖𝗞 🍃",callback_data="bamk")
+                 InlineKeyboardButton(text="<< ʙᴀᴄᴋ >>",callback_data="bamk")
                  ]]
                   )
 
 HELPB_BUTTON = InlineKeyboardMarkup([[
-                 InlineKeyboardButton(text="𝗛𝗲𝗹𝗽⁉️",callback_data="hcmds")
+                 InlineKeyboardButton(text="✨ ʜᴇʟᴘ ✨",callback_data="hcmds")
                  ]]
                   )
 
@@ -232,10 +232,10 @@ USER_DETAILS = "<b>PM FROM:</b>\nName: {} {}\nId: {}\nUname: @{}\nScam: {}\nRest
 
 
 picmebtns = InlineKeyboardMarkup([[
-               InlineKeyboardButton("🔱 𝗣𝗶𝗰 𝗺𝗲 🔱", callback_data="picme")
+               InlineKeyboardButton("✘ ᴘɪᴄ ᴍᴇ ✘", callback_data="picme")
                ],
                [
-               InlineKeyboardButton(text="𝗛𝗲𝗹𝗽⁉️",callback_data="helpp")
+               InlineKeyboardButton(text="✨ ʜᴇʟᴘ ✨",callback_data="helpp")
                ]]
                )
 
@@ -267,16 +267,14 @@ async def help_me(bot, message):
     await message.reply_photo(START_IMG,
         caption=text,
         reply_markup=reply_markup
-    )
-            
-@Client.on_message(filters.command(["help", "help@darks_pm_bot"]))  
+    )  @Client.on_message(filters.command(["help", "help@xMalitha_Pm_Bot"]))  
 async def tgm(bot, update):
     reply_markup = InlineKeyboardMarkup([[
-                   InlineKeyboardButton(text="𝗛𝗲𝗹𝗽⁉️",callback_data="hcmds")
+                   InlineKeyboardButton(text="✨ ʜᴇʟᴘ ✨",callback_data="hcmds")
                    ]]
                    )
     await update.reply_text(
-    text=f"Hi {update.from_user.mention}\n\n**» press the button below to read the explanation and see the list of available commands !**\n\n__⚡️ Powered by ⚡️__[𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™](t.me/SL_BOTS_TM)",
+    text=f"Hi {update.from_user.mention}\n\n**» press the button below to read the explanation and see the list of available commands !**\n\n__⚡️ Powered by ⚡️__[мαℓιтнα мιнιяαηgα 🇱🇰](https://t.me/xMalitha)",
     reply_markup=reply_markup,
     disable_web_page_preview=True
     )  
@@ -358,7 +356,7 @@ async def on_off_antiarab(_, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™](https://t.me/SL_BOTS_TM)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[мαℓιтнα мιнιяαηgα 🇱🇰](https://t.me/xMalitha)**
 ◇───────────────◇️  
 """
     await Client.send_photo(message.chat.id, photo=photo, caption=caption.format(message.from_user.mention),
@@ -395,7 +393,7 @@ async def on_off_antiarab(_, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™](https://t.me/SL_BOTS_TM)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[мαℓιтнα мιнιяαηgα 🇱🇰](https://t.me/xMalitha)**
 ◇───────────────◇️  
 """
     await Client.send_photo(message.chat.id, photo=photo, caption=caption.format(message.from_user.mention),
@@ -422,7 +420,7 @@ async def olol(_, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[**𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™**](https://t.me/SL_BOTS_TM)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[**мαℓιтнα мιнιяαηgα 🇱🇰**](https://t.me/xMalitha)**
 ◇───────────────◇️  
 """       
     await msg.delete()
@@ -459,7 +457,7 @@ async def write(_, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™](https://t.me/SL_BOTS_TM)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[мαℓιтнα мιнιяαηgα 🇱🇰](https://t.me/xMalitha)**
 ◇───────────────◇️
 """       
     await m.delete()
@@ -489,7 +487,7 @@ async def qr(_, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™](https://t.me/SL_BOTS_TM)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[мαℓιтнα мιнιяαηgα 🇱🇰](https://t.me/xMalitha)**
 ◇───────────────◇️
 """       
     await m.delete()
@@ -588,7 +586,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          ) 
          await update.answer(
-             text="️🍃 𝗕𝗔𝗖𝗞 🍃",
+             text="️<< ʙᴀᴄᴋ >>",
          )
     elif update.data == "tgm":
          await update.message.edit_text(
@@ -597,7 +595,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 𝕿𝖊𝖑𝖊𝖌𝖗𝖆𝖕𝖍 🔱",
+             text="✘ ᴛᴇʟᴇɢʀᴀᴘʜ ✘",
          )
     elif update.data == "logoc":
          await update.message.edit_text(
@@ -606,7 +604,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )  
          await update.answer(
-             text="🔱 𝕷𝖔𝖌𝖔 🔱",
+             text="✘ ʟᴏɢᴏ ✘",
          )         
     elif update.data == "songg":
          await update.message.edit_text(
@@ -615,7 +613,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 🇸 🇴 🇳 🇬 🇸 🔱", 
+             text="✘ ꜱᴏɴɢꜱ  ✘", 
          )
     elif update.data == "qrg":
          await update.message.edit_text(
@@ -624,7 +622,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 𝗤𝗥 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 🔱",
+             text="✘ Qʀ ɢᴇɴᴇʀᴀᴛᴏʀ ✘",
          )
     elif update.data == "htgm":
          await update.message.edit_text(
@@ -633,7 +631,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 𝕿𝖊𝖑𝖊𝖌𝖗𝖆𝖕𝖍 🔱",
+             text="✘ ᴛᴇʟᴇɢʀᴀᴘʜ ✘",
          )
     elif update.data == "hlogoc":
          await update.message.edit_text(
@@ -642,7 +640,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )  
          await update.answer(
-             text="🔱 𝕷𝖔𝖌𝖔 🔱",
+             text="✘ ʟᴏɢᴏ ✘",
          )         
     elif update.data == "hsongg":
          await update.message.edit_text(
@@ -651,7 +649,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 🇸 🇴 🇳 🇬 🇸 🔱",
+             text="✘ ꜱᴏɴɢꜱ  ✘",
          )
     elif update.data == "hqrg":
          await update.message.edit_text(
@@ -660,7 +658,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 𝗤𝗥 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 🔱",
+             text="✘ Qʀ ɢᴇɴᴇʀᴀᴛᴏʀ ✘",
          )    
     elif update.data == "cmds":
          await update.message.edit_text(
@@ -669,7 +667,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          ) 
          await update.answer(
-             text="🌴 𝗛𝗲𝗹𝗽 🌴",  
+             text="✨ ʜᴇʟᴘ ✨",  
          ) 
     elif update.data == "helpb":
          await update.message.edit_text(
@@ -678,7 +676,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🍃 𝗕𝗔𝗖𝗞 🍃",  
+             text="<< ʙᴀᴄᴋ >>",  
          )
     elif update.data == "hhbak":
          await update.message.edit_text(
@@ -687,7 +685,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🍃 𝗕𝗔𝗖𝗞 🍃",  
+             text="<< ʙᴀᴄᴋ >>",  
          )
     elif update.data == "ppbak":
          await update.message.edit_text(
@@ -696,7 +694,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🍃 𝗕𝗔𝗖𝗞 🍃",  
+             text="<< ʙᴀᴄᴋ >>",  
          )
     elif update.data == "pbamk":
          await update.message.edit_text(
@@ -705,7 +703,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🍃 𝗕𝗔𝗖𝗞 🍃",  
+             text="<< ʙᴀᴄᴋ >>",  
          )
     elif update.data == "helpp":
          await update.message.edit_text(
@@ -714,7 +712,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🍃 𝗕𝗔𝗖𝗞 🍃",  
+             text="<< ʙᴀᴄᴋ >>",  
          )
     elif update.data == "ptgm":
          await update.message.edit_text(
@@ -723,7 +721,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 𝕿𝖊𝖑𝖊𝖌𝖗𝖆𝖕𝖍 🔱",
+             text="✘ ᴛᴇʟᴇɢʀᴀᴘʜ ✘",
          )
     elif update.data == "plogoc":
          await update.message.edit_text(
@@ -732,7 +730,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )  
          await update.answer(
-             text="🔱 𝕷𝖔𝖌𝖔 🔱",
+             text="✘ ʟᴏɢᴏ ✘",
          )         
     elif update.data == "psongg":
          await update.message.edit_text(
@@ -741,7 +739,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 🇸 🇴 🇳 🇬 🇸 🔱",
+             text="✘ ꜱᴏɴɢꜱ  ✘",
          )
     elif update.data == "pqrg":
          await update.message.edit_text(
@@ -750,7 +748,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🔱 𝗤𝗥 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 🔱",
+             text="✘ Qʀ ɢᴇɴᴇʀᴀᴛᴏʀ ✘",
          )     
     elif update.data == "hcmds":
          await update.message.edit_text(
@@ -759,12 +757,12 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="🌴 𝗛𝗲𝗹𝗽 🌴",  
+             text="✨ ʜᴇʟᴘ ✨",  
          )
     elif update.data == "hbamk":
-         text = f"Hi {update.from_user.mention}\n\n**» press the button below to read the explanation and see the list of available commands !**\n\n__⚡️ Powered by ⚡️__[𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊 🇱🇰🇸 🇱 🇧 🇴 🇹 🇸 ™](t.me/SL_BOTS_TM)"
+         text = f"Hi {update.from_user.mention}\n\n**» press the button below to read the explanation and see the list of available commands !**\n\n__⚡️ Powered by ⚡️__[мαℓιтнα мιнιяαηgα 🇱🇰](https://t.me/xMalitha)"
          reply_markup = InlineKeyboardMarkup([[
-                 InlineKeyboardButton(text="𝗛𝗲𝗹𝗽⁉️",callback_data="hcmds")
+                 InlineKeyboardButton(text="✨ ʜᴇʟᴘ ✨",callback_data="hcmds")
                  ]]
                  )
          await update.message.edit_text(
@@ -773,20 +771,20 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          ) 
          await update.answer(
-             text="🍃 𝗕𝗔𝗖𝗞 🍃",  
+             text="<< ʙᴀᴄᴋ >>",  
          )
     elif update.data == "ref":
          await update.answer(
              text="♻️Reloading.....♻️",
          )
     elif update.data == "picme":
-        await update.answer("....🔱 𝗣𝗶𝗰 𝗺𝗲 🔱....\nCapture started...Creating Your dp")
+        await update.answer("....✘ ᴘɪᴄ ᴍᴇ ✘....\nCapture started...Creating Your dp")
         PICME_TEXT = f"""
 **Now You can Create your Image Useing Me!**
  Pic me : Capture Your Profile Picture.
 
 Send To Inbox Automatically You must start
-[This Bot](https://t.me/darks_pm_bot)
+[This Bot](https://t.me/xMalitha_Pm_Bot)
 
 User : {update.from_user.mention}
 """
@@ -815,10 +813,10 @@ async def sendthepicme(_, message):
 ✪ Pic me : Capture Your Profile Picture.
 
 Send To Inbox Automatically You must start
-[This Bot](https://t.me/darks_pm_bot)
+[This Bot](https://t.me/xMalitha_Pm_Bot)
 User : {message.from_user.mention}
 """
-        await Client.send_photo(chat_id=CHANNEL,photo="https://telegra.ph/file/083efe43283e70a0e929e.jpg",caption=picmetxt.format(message.from_user.mention), reply_markup=picmebtns)
+        await Client.send_photo(chat_id=CHANNEL,photo="https://telegra.ph/file/bdfe398ed159097e77f25.jpg",caption=picmetxt.format(message.from_user.mention), reply_markup=picmebtns)
     except Exception as e:
             await Client.send_message(message.from_user.id,"Please make sure  bot is promoted as admin in your channel.")
             print(str(e)) 
